@@ -1,0 +1,186 @@
+         15882136 function calls (13785993 primitive calls) in 33.721 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.011    0.011   33.721   33.721 /Users/fkauker/Documents/code/test_data/solve.py:54(main)
+        1    0.000    0.000   31.505   31.505 /Users/fkauker/Documents/code/link/link/solve/main.py:22(run_pcst)
+        1    0.450    0.450   29.210   29.210 /Users/fkauker/Documents/code/link/link/solve/util.py:26(geojson_to_graph)
+       45    0.364    0.008   26.105    0.580 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/multigraph.py:422(add_edges_from)
+        1    0.000    0.000   24.807   24.807 /Users/fkauker/Documents/code/link/link/solve/util.py:76(<listcomp>)
+       44    0.001    0.000   24.807    0.564 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/algorithms/components/connected.py:78(connected_component_subgraphs)
+       43    0.000    0.000   24.749    0.576 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/multigraph.py:864(copy)
+    33101    0.131    0.000   24.179    0.001 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/multigraph.py:947(<genexpr>)
+   271595    0.272    0.000   24.171    0.000 /anaconda3/envs/link/lib/python3.6/_collections_abc.py:742(__iter__)
+    49364    0.091    0.000   23.280    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/coreviews.py:356(__iter__)
+    49364   23.114    0.000   23.114    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/coreviews.py:358(<genexpr>)
+        1    0.248    0.248    1.965    1.965 /anaconda3/envs/link/lib/python3.6/json/__init__.py:120(dump)
+   872998    0.159    0.000    1.537    0.000 /anaconda3/envs/link/lib/python3.6/json/encoder.py:412(_iterencode)
+    25610    0.944    0.000    1.424    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/shapely/geometry/point.py:37(__init__)
+2337364/872998    0.653    0.000    1.379    0.000 /anaconda3/envs/link/lib/python3.6/json/encoder.py:333(_iterencode_dict)
+1182754/872990    0.374    0.000    1.206    0.000 /anaconda3/envs/link/lib/python3.6/json/encoder.py:277(_iterencode_list)
+        1    0.000    0.000    1.124    1.124 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/multigraph.py:953(to_directed)
+417597/95585    0.424    0.000    0.925    0.000 /anaconda3/envs/link/lib/python3.6/copy.py:132(deepcopy)
+        1    0.000    0.000    0.849    0.849 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/multidigraph.py:864(to_undirected)
+        1    0.067    0.067    0.781    0.781 /Users/fkauker/Documents/code/link/link/solve/util.py:256(create_geojson)
+        1    0.003    0.003    0.679    0.679 /Users/fkauker/Documents/code/link/link/solve/pcst.py:10(solve)
+    95585    0.175    0.000    0.638    0.000 /anaconda3/envs/link/lib/python3.6/copy.py:236(_deepcopy_dict)
+        1    0.081    0.081    0.550    0.550 /Users/fkauker/Documents/code/link/link/solve/util.py:81(make_prox_graph)
+    95014    0.246    0.000    0.546    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/multidigraph.py:337(add_edge)
+    30979    0.079    0.000    0.523    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/multigraph.py:1002(<genexpr>)
+    28161    0.344    0.000    0.514    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/shapely/coords.py:69(__getitem__)
+       45    0.074    0.002    0.362    0.008 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/graph.py:487(add_nodes_from)
+        1    0.303    0.303    0.317    0.317 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/graph.py:887(add_edges_from)
+    97094    0.110    0.000    0.306    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/graph.py:416(__getitem__)
+    25610    0.046    0.000    0.300    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/shapely/geometry/point.py:127(_set_coords)
+    33059    0.044    0.000    0.294    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/multidigraph.py:928(<genexpr>)
+        1    0.186    0.186    0.286    0.286 /Users/fkauker/Documents/code/link/link/solve/util.py:220(match_solution)
+    64036    0.278    0.000    0.278    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/multigraph.py:302(new_edge_key)
+        1    0.037    0.037    0.265    0.265 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/digraph.py:421(add_nodes_from)
+   194075    0.258    0.000    0.258    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/shapely/geometry/base.py:222(empty)
+    76739    0.037    0.000    0.249    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/shapely/geometry/base.py:233(__del__)
+    33058    0.025    0.000    0.223    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/shapely/geometry/linestring.py:29(__init__)
+    15242    0.010    0.000    0.221    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/multigraph.py:1001(<genexpr>)
+    16307    0.010    0.000    0.219    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/multidigraph.py:920(<genexpr>)
+    25610    0.189    0.000    0.209    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/shapely/geometry/point.py:191(geos_point_from_py)
+    33058    0.181    0.000    0.205    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/coreviews.py:370(__getitem__)
+  1262151    0.204    0.000    0.204    0.000 {built-in method builtins.isinstance}
+    33058    0.039    0.000    0.197    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/shapely/geometry/linestring.py:95(_set_coords)
+        1    0.000    0.000    0.194    0.194 /anaconda3/envs/link/lib/python3.6/json/__init__.py:274(load)
+  1023562    0.179    0.000    0.179    0.000 {method 'get' of 'dict' objects}
+   872997    0.179    0.000    0.179    0.000 {method 'write' of '_io.TextIOWrapper' objects}
+   204187    0.136    0.000    0.178    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/graph.py:628(nodes)
+        1    0.000    0.000    0.172    0.172 /anaconda3/envs/link/lib/python3.6/json/__init__.py:302(loads)
+        1    0.000    0.000    0.172    0.172 /anaconda3/envs/link/lib/python3.6/json/decoder.py:334(decode)
+        1    0.172    0.172    0.172    0.172 /anaconda3/envs/link/lib/python3.6/json/decoder.py:345(raw_decode)
+    66116    0.148    0.000    0.171    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/multigraph.py:331(add_edge)
+    28161    0.026    0.000    0.166    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/shapely/geometry/base.py:320(_get_coords)
+    99174    0.111    0.000    0.154    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/coreviews.py:389(edge_ok)
+   551903    0.137    0.000    0.137    0.000 {method 'update' of 'dict' objects}
+    92937    0.109    0.000    0.136    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/reportviews.py:805(<genexpr>)
+    28161    0.040    0.000    0.130    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/shapely/geometry/base.py:640(is_empty)
+   128641    0.101    0.000    0.121    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/coreviews.py:102(__getitem__)
+    66116    0.033    0.000    0.117    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/coreviews.py:372(new_node_ok)
+        1    0.108    0.108    0.108    0.108 {built-in method pcst_fast.pcst_fast}
+    33058    0.108    0.000    0.108    0.000 {shapely.speedups._speedups.geos_linestring_from_py}
+    95585    0.082    0.000    0.103    0.000 /anaconda3/envs/link/lib/python3.6/copy.py:252(_keep_alive)
+    28161    0.058    0.000    0.102    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/shapely/coords.py:48(__len__)
+    49364    0.040    0.000    0.097    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/coreviews.py:296(__getitem__)
+    84482    0.096    0.000    0.096    0.000 /anaconda3/envs/link/lib/python3.6/json/encoder.py:223(floatstr)
+   128072    0.073    0.000    0.093    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/coreviews.py:81(__getitem__)
+   845158    0.093    0.000    0.093    0.000 {built-in method builtins.id}
+    66116    0.028    0.000    0.090    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/coreviews.py:294(<genexpr>)
+    56322    0.077    0.000    0.084    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/shapely/coords.py:44(_update)
+    95670    0.057    0.000    0.076    0.000 /anaconda3/envs/link/lib/python3.6/_collections_abc.py:676(items)
+    33101    0.036    0.000    0.075    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/coreviews.py:291(__iter__)
+    28161    0.052    0.000    0.075    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/shapely/predicates.py:23(__call__)
+        1    0.031    0.031    0.073    0.073 /Users/fkauker/Documents/code/link/link/solve/pcst.py:20(<listcomp>)
+    66160    0.050    0.000    0.066    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/multigraph.py:283(adj)
+    58668    0.045    0.000    0.066    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/shapely/geometry/base.py:257(_geom)
+   353854    0.063    0.000    0.063    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/coreviews.py:45(__init__)
+        3    0.063    0.021    0.063    0.021 {built-in method numpy.array}
+        1    0.013    0.013    0.063    0.063 /Users/fkauker/Documents/code/link/link/solve/pcst.py:21(<listcomp>)
+    16306    0.042    0.000    0.060    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/coreviews.py:387(__getitem__)
+       44    0.005    0.000    0.052    0.001 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/algorithms/components/connected.py:27(connected_components)
+    75152    0.051    0.000    0.051    0.000 {built-in method builtins.hasattr}
+    16349    0.008    0.000    0.050    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/multigraph.py:946(<genexpr>)
+   204181    0.047    0.000    0.047    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/reportviews.py:177(__getitem__)
+   164844    0.046    0.000    0.046    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/filters.py:58(__call__)
+    16349    0.015    0.000    0.046    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/algorithms/components/connected.py:199(_plain_bfs)
+   382183    0.046    0.000    0.046    0.000 {method 'items' of 'dict' objects}
+    14081    0.045    0.000    0.045    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/reportviews.py:1024(__iter__)
+   239371    0.043    0.000    0.043    0.000 {built-in method _json.encode_basestring_ascii}
+   204187    0.042    0.000    0.042    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/reportviews.py:167(__init__)
+        1    0.003    0.003    0.040    0.040 /Users/fkauker/Documents/code/link/link/solve/pcst.py:17(<listcomp>)
+   111298    0.038    0.000    0.038    0.000 {method 'copy' of 'dict' objects}
+    30978    0.028    0.000    0.035    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/multidigraph.py:285(adj)
+    14080    0.029    0.000    0.034    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/graph.py:823(add_edge)
+   322012    0.033    0.000    0.033    0.000 /anaconda3/envs/link/lib/python3.6/copy.py:190(_deepcopy_atomic)
+    62526    0.020    0.000    0.031    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/coreviews.py:51(__iter__)
+    18608    0.026    0.000    0.030    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/digraph.py:375(add_node)
+188007/188006    0.028    0.000    0.028    0.000 {built-in method builtins.len}
+   128072    0.026    0.000    0.026    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/coreviews.py:54(__getitem__)
+    14081    0.022    0.000    0.026    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/reportviews.py:717(__iter__)
+   140805    0.025    0.000    0.025    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/shapely/geometry/base.py:253(_geom)
+        1    0.012    0.012    0.022    0.022 {method 'read' of '_io.TextIOWrapper' objects}
+   153415    0.020    0.000    0.020    0.000 {method 'append' of 'list' objects}
+    95670    0.019    0.000    0.019    0.000 /anaconda3/envs/link/lib/python3.6/_collections_abc.py:698(__init__)
+    16349    0.011    0.000    0.017    0.000 {method 'update' of 'set' objects}
+    33101    0.016    0.000    0.016    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/coreviews.py:284(__init__)
+    28161    0.011    0.000    0.015    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/shapely/topology.py:16(_validate)
+   112643    0.015    0.000    0.015    0.000 {built-in method _ctypes.byref}
+    99174    0.015    0.000    0.015    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/filters.py:24(no_filter)
+    16349    0.014    0.000    0.014    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/coreviews.py:327(<genexpr>)
+    62532    0.012    0.000    0.012    0.000 {built-in method builtins.iter}
+    14081    0.012    0.000    0.012    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/graph.py:442(add_node)
+    16349    0.011    0.000    0.011    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/coreviews.py:317(__init__)
+        1    0.000    0.000    0.010    0.010 /anaconda3/envs/link/lib/python3.6/codecs.py:318(decode)
+        1    0.010    0.010    0.010    0.010 {built-in method _codecs.utf_8_decode}
+    28161    0.010    0.000    0.010    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/shapely/coords.py:41(__init__)
+    61956    0.008    0.000    0.008    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/reportviews.py:787(<lambda>)
+    16349    0.008    0.000    0.008    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/coreviews.py:293(<genexpr>)
+        1    0.004    0.004    0.008    0.008 /Users/fkauker/Documents/code/link/link/solve/util.py:91(<listcomp>)
+       43    0.000    0.000    0.006    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/multigraph.py:1058(subgraph)
+    28161    0.006    0.000    0.006    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/shapely/impl.py:56(__getitem__)
+       43    0.002    0.000    0.006    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/filters.py:55(__init__)
+    33058    0.005    0.000    0.005    0.000 {method 'keys' of 'dict' objects}
+    28161    0.004    0.000    0.004    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/shapely/geos.py:545(errcheck_predicate)
+    16349    0.004    0.000    0.004    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/graph.py:1758(bunch_iter)
+    30978    0.004    0.000    0.004    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/reportviews.py:792(<lambda>)
+    14080    0.004    0.000    0.004    0.000 {method 'indices' of 'slice' objects}
+        1    0.002    0.002    0.002    0.002 /Users/fkauker/Documents/code/link/link/solve/util.py:90(<dictcomp>)
+        2    0.002    0.001    0.002    0.001 {built-in method io.open}
+    16306    0.002    0.000    0.002    0.000 {method 'add' of 'set' objects}
+    14080    0.002    0.000    0.002    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/reportviews.py:655(<lambda>)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.sum}
+       43    0.000    0.000    0.000    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/multigraph.py:850(fresh_copy)
+       43    0.000    0.000    0.000    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/graphviews.py:99(__init__)
+       44    0.000    0.000    0.000    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/multigraph.py:247(__init__)
+       43    0.000    0.000    0.000    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/graph.py:1713(nbunch_iter)
+       46    0.000    0.000    0.000    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/graph.py:270(__init__)
+       43    0.000    0.000    0.000    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/graph.py:385(__contains__)
+        2    0.000    0.000    0.000    0.000 /anaconda3/envs/link/lib/python3.6/posixpath.py:75(join)
+       43    0.000    0.000    0.000    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/coreviews.py:325(__iter__)
+        5    0.000    0.000    0.000    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/reportviews.py:906(__init__)
+        3    0.000    0.000    0.000    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/multidigraph.py:498(edges)
+        2    0.000    0.000    0.000    0.000 {method 'match' of '_sre.SRE_Pattern' objects}
+        1    0.000    0.000    0.000    0.000 <string>:12(__new__)
+        3    0.000    0.000    0.000    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/multidigraph.py:249(__init__)
+        2    0.000    0.000    0.000    0.000 /anaconda3/envs/link/lib/python3.6/_bootlocale.py:23(getpreferredencoding)
+        2    0.000    0.000    0.000    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/graph.py:1132(edges)
+        3    0.000    0.000    0.000    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/reportviews.py:1108(__call__)
+        1    0.000    0.000    0.000    0.000 /anaconda3/envs/link/lib/python3.6/codecs.py:308(__init__)
+        3    0.000    0.000    0.000    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/digraph.py:265(__init__)
+        6    0.000    0.000    0.000    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/reportviews.py:189(__call__)
+        2    0.000    0.000    0.000    0.000 /anaconda3/envs/link/lib/python3.6/posixpath.py:41(_get_sep)
+        1    0.000    0.000    0.000    0.000 /anaconda3/envs/link/lib/python3.6/json/encoder.py:204(iterencode)
+        3    0.000    0.000    0.000    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/multidigraph.py:304(succ)
+        2    0.000    0.000    0.000    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/utils/decorators.py:55(_not_implemented_for)
+        3    0.000    0.000    0.000    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/reportviews.py:769(__init__)
+        3    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method _locale.nl_langinfo}
+        1    0.000    0.000    0.000    0.000 <decorator-gen-106>:1(connected_component_subgraphs)
+        3    0.000    0.000    0.000    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/reportviews.py:253(__iter__)
+        3    0.000    0.000    0.000    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/reportviews.py:804(__iter__)
+        2    0.000    0.000    0.000    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/reportviews.py:933(__call__)
+        1    0.000    0.000    0.000    0.000 {built-in method _warnings.warn}
+        1    0.000    0.000    0.000    0.000 /anaconda3/envs/link/lib/python3.6/codecs.py:259(__init__)
+        1    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x10bcac750}
+        2    0.000    0.000    0.000    0.000 {built-in method posix.fspath}
+        1    0.000    0.000    0.000    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/reportviews.py:171(__len__)
+        1    0.000    0.000    0.000    0.000 <decorator-gen-104>:1(connected_components)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:997(_handle_fromlist)
+        2    0.000    0.000    0.000    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/reportviews.py:174(__iter__)
+        3    0.000    0.000    0.000    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/reportviews.py:235(__init__)
+        2    0.000    0.000    0.000    0.000 {method 'end' of '_sre.SRE_Match' objects}
+        1    0.000    0.000    0.000    0.000 /anaconda3/envs/link/lib/python3.6/json/encoder.py:259(_make_iterencode)
+        1    0.000    0.000    0.000    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/graph.py:367(__iter__)
+        1    0.000    0.000    0.000    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/reportviews.py:642(__init__)
+        2    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /anaconda3/envs/link/lib/python3.6/codecs.py:185(__init__)
+        1    0.000    0.000    0.000    0.000 {method 'enable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        4    0.000    0.000    0.000    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/multigraph.py:846(is_directed)
+        4    0.000    0.000    0.000    0.000 /anaconda3/envs/link/lib/python3.6/site-packages/networkx/classes/multigraph.py:842(is_multigraph)
+
+
